@@ -9,13 +9,24 @@
     <Import_RootNamespace>Notifier</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Commands\BuildStatusCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\ObjectExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\ServiceProviderExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructures\CommandKeys.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructures\Ole32dll.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\PackageExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructures\Shell32dll.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructures\User32dll.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)NotifierPackage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ServiceProviderPackage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Runtime\ArrayElement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\INotificationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\IServiceProviderPackage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ToastNotificationService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Commands\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Infrastructures\" />
     <Folder Include="$(MSBuildThisFileDirectory)3rdParty\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Runtime\" />
     <Folder Include="$(MSBuildThisFileDirectory)Options\" />
   </ItemGroup>
 </Project>
