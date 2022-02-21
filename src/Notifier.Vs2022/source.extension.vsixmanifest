@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="be389caf-38db-4f0d-b317-530b401448ff" Version="1.0.3" Language="en-US" Publisher="Duong Nguyen" />
+        <Identity Id="be389caf-38db-4f0d-b317-530b401448ff" Version="1.0.3.1" Language="en-US" Publisher="Duong.Nguyen" />
         <DisplayName>Notifier 2022</DisplayName>
-        <Description xml:space="preserve">Empty VSIX Project.</Description>
+        <Description xml:space="preserve">Show notification after every time build solution or project.</Description>
+        <Icon>Assets\Failed.png</Icon>
+        <PreviewImage>Assets\Failed.png</PreviewImage>
+        <Tags>toast, notification, noti</Tags>
+        <Preview>true</Preview>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
